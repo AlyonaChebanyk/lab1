@@ -20,7 +20,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="40dp"
             android:layout_weight="1"
-            android:textSize="26sp" />
+            android:textSize="26sp"
+            android:inputType="numberDecimal"/>
 
         <EditText
             android:id="@+id/secondNumberEditText"
@@ -28,7 +29,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="40dp"
             android:layout_weight="1"
-            android:textSize="26sp" />
+            android:textSize="26sp"
+            android:inputType="numberDecimal"/>
 
     </LinearLayout>
 

@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         //handling the divide button press
         divideButton.setOnClickListener {
             if (!areFieldsEmpty()) {
-                //проверка - не является ли второе число нулем
+                //check if second number is not zero
                 if (secondNumberEditText.text.toString() == "0")
                     Toast.makeText(this, "Second number cannot be 0", Toast.LENGTH_SHORT).show()
                 else
